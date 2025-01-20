@@ -39,10 +39,6 @@ app.disable('x-powered-by') // deshabilitar del header x-powered-by: Express
 //   'http://movies.com'
 // ]
 
-app.get('/', (req, res) => {
-  res.json({ message: 'hola mundo' })
-})
-
 /* UNA FORMA DE SOLUCIONAR LOS CORS
 
 app.get('/movies', (req, res) => {
